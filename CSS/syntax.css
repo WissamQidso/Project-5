@@ -1,0 +1,599 @@
+/* Reset Stylesheet */
+
+html, body, div, span, 
+h1, h2, h3, p, blockquote,
+img, small, strong, ul, li, 
+footer, header, nav, section {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    font-family: 'Myriad Pro';
+    vertical-align:baseline;
+    background:transparent;
+    list-style-type: none;
+}
+
+body {
+    line-height:1;
+    background: #f7f7f7;
+}
+
+
+footer, header, nav, section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote {
+    quotes:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/***** MY CSS WORK *****/ 
+
+.wrapper {
+    width: 75%;
+    margin: 0 auto;
+}
+
+header {
+    background: #efefef;
+}
+
+header h1 {
+    float: left;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #4e4e4e;
+    margin: 30px 0 25px;
+    font-family: 'Forte';
+}
+
+header h1:hover {
+    color: #000;
+}
+
+header:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+header nav ul {
+    float: right;
+    margin-top: 45px;
+}
+
+header nav ul li{
+    float: left;
+}
+
+header li a {
+    margin-left: 2vw;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    color: #4e4e4e;
+}
+
+.first-child{
+    color: #1abb9c;
+}
+
+header li a:hover {
+    color: #000;
+}
+
+.first-child:hover{
+    color: #1aaa5a;
+}
+
+#main-banner {
+    height: 37vw;
+}
+
+#main-banner h2 {
+    position: relative;
+    top: -28vw;
+    text-align: center;
+    color: #fff;
+    font-size: 2.1vw;
+    font-family: 'Forte';
+    text-transform: uppercase;
+}
+
+#main-banner p {
+    position: relative;
+    top: -26vw;
+    text-align: center;
+    color: #a8a8a8;
+    font-size: 2vw;
+}
+
+#main-banner a {
+    position: relative;
+    top: -21vw;
+    color: #fff;
+    display: block;
+    width: 7.5vw;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1.1vw 2.5vw 0.8vw;
+    background: #3f8dbf;
+    border-radius: 4px;
+    box-shadow: 2px -2px 2px #3678a3;
+    font-size: 1.1vw;
+}
+
+#main-banner a:hover {
+    color: #afafaf;
+}
+
+section#ideas {
+    margin-top: 3vw;
+}
+
+section#ideas:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#ideas ul {
+    border-bottom: 2px solid #dcdcdc;
+    padding-bottom: 3vw;
+}
+
+#ideas ul:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#ideas li {
+    float: left;
+    width: 23%;
+    text-align: center;
+    margin: 0 1%
+}
+
+#ideas img {
+    padding: 0 0 25px;
+}
+
+#ideas img:hover {
+    filter: gray;
+    -webkit-filter: grayscale(100%);
+}
+
+#ideas h3 {
+    color: #4e4e4e;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#ideas p {
+    color: #616161;
+    text-align: justify;
+    padding: 0 2vw;
+}
+
+section#work {
+    margin: 2.5vw 0;
+}
+
+section#work:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#work h2 {
+    color: #4e4e4e;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-bottom: 1.5vw;
+}
+
+#work li {
+    float: left;
+    width: 32%;
+}
+
+#work li:nth-child(2) {
+    margin: 0 2%;
+}
+
+#work img {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+#work img:hover {
+    filter: gray;
+    -webkit-filter: grayscale(100%);
+}
+
+#work h3 {
+    color: #4e4e4e;
+    font-size:18px;
+    margin-bottom: 8px;
+}
+
+#work .lighter {
+    color: #a8a8a8;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+#work p {
+    color: #5c5c5c;
+    font-size: 14px;
+    text-align: justify;
+}
+
+section#coments {
+    background: #efefef;
+}
+
+#coments blockquote {
+    text-align: center;
+    color: #a1a1a1;
+    font-size: 20px;
+    padding: 70px 0 15px;
+    margin: 0 auto;
+    background: url(../images/quote.png) no-repeat;
+    background-position: 50% 18px;
+    width: 60%;
+}
+
+footer {
+    background: #1f1f1f;
+}
+
+footer:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+footer ul {
+    border-bottom: 2px solid #363636;
+    margin-bottom: 2vw;
+}
+
+footer ul:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+footer li {
+    float: left;
+    width: 23%;
+    margin: 0 1%;
+}
+
+footer li h3 {
+    color: #6c6c6c;
+    margin: 2vw 0 1vw;
+    text-transform: uppercase;
+    font-size: 18px;
+} 
+
+footer li p {
+    color: #cacaca;
+    text-align: justify;
+    font-size: 14px;
+    margin-bottom: 1.1vw;
+    line-height: 1.3em;
+}
+
+footer li span {
+    display: block;
+    color: #cacaca;
+    width: 70%;
+    text-align: left;
+    padding-left: 25px;
+    padding-bottom: 1.1vw;
+    font-size: 14px;
+    line-height: 1.3em;
+    background: url(../images/tweet.png) no-repeat;
+    background-position: 2% 0.2vw;
+}
+
+#address {
+    background: url(../images/location.png) no-repeat;
+    background-position: 2% 2px;
+}
+
+#tel {
+    background: url(../images/tele.png) no-repeat;
+    background-position: 2% 2px;
+}
+
+#mail {
+    background: url(../images/mail.png) no-repeat;
+    background-position: 2% 5px;
+    margin-bottom: 0.5vw;
+}
+
+#copy-right {
+    color: #aaaaaa;
+    background: #1f1f1f;
+    font-size: 14px;
+    height: 3vw;
+}
+
+#copy-right a {
+    font-family: 'Forte';
+    color: white;
+    padding-left: 0.2vw;
+    text-decoration: none;
+}
+
+/* MEDIA QUERY SECTION */ 
+
+@media screen and (max-width: 965px) {
+    header h1 {
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 1vw;
+        text-align: center;
+        clear: left;
+        float: none;
+    }
+
+    header nav ul {
+        width: 100%;
+        float: none;
+        clear: both;
+        margin-top: 2vw;
+        text-align: center;
+    }
+
+    header nav li {
+        width: 16%;
+        margin: 0  0.6% 2vw 0 ;
+        
+    }
+
+    header nav a {
+        text-align: center;
+        margin: 0 1% 0 0;
+    }
+
+    .first-child {
+        margin-right: -2vw;
+    }
+
+    #main-banner a {
+        width: 15%;
+        font-size: 15px;
+    }
+
+    #ideas li {
+        width : 48%;
+        margin: 0 1%;
+        padding : 1.5vw 0;
+        text-align: center;
+    }
+
+    #work li h3 {
+        font-size: 1.7vw;
+    }
+
+    #coments blockquote {
+        background-position: 50% 21px;
+    }
+
+    footer li {
+        width: 40%;
+        margin: 0 5%;
+    } 
+
+    footer li:nth-child(odd) {
+        clear: both;
+    }
+
+    footer li p {
+        text-align: left;
+    }
+
+    footer li span {
+    padding-left: 30px;
+    text-align: left;
+    }
+
+    #copy-right {
+        height: 40px;
+        padding-top: 15px;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    header nav li a {
+        font-size: 13px
+    }
+
+    #main-banner h2 {
+        width: 65%;
+        position:relative;
+        font-size: 23px;
+        left: 18%;
+    }
+
+    #main-banner p {
+        width: 100%;
+        margin: 0 auto;
+        font-size: 16px;
+        position:relative;
+    }
+
+    #main-banner a {
+        width: 130px;
+        position:relative;
+        font-size: 15px;
+    }
+
+    #work h2 {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    #work li {
+        width: 80%;
+        float: none;
+        padding: 0 10%;
+        margin: 20px 0 !important;
+    }
+
+    #work li h3 {
+        font-size: 17px;
+    }
+
+    #work p {
+        line-height: 1.3em;
+    }
+
+    #coments blockquote {
+        width: 80%;
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width: 590px){
+
+    header nav ul li {
+        float: none;
+        clear: both;
+        width: 100%;
+        margin: 0;
+        background: #555;
+        height: 0;
+    }
+
+    header nav ul li.open {
+        height: auto;
+    }
+
+    header .wrapper {
+        width: 100%;
+    }
+
+    header nav a {
+        display: block;
+        text-align: left;
+        margin: 0 !important;
+        padding: 8px 0 8px 35px;
+        color: #999;
+        border-bottom: 1px solid #6f6f6f;
+    }
+
+    #burger-nav {
+        height: 40px;
+        background: url(../images/burger-menu.png) no-repeat 2% center;
+        background-color: #444;
+        cursor: pointer;
+    }
+
+    header nav ul {
+        margin-top: 0
+    }
+
+    #main-banner h2 {
+        font-size: 18px;
+    }
+
+    #main-banner p {
+        font-size: 13px;
+    }
+
+    #main-banner a {
+        width: 110px;
+        font-size: 13px;
+    }
+
+    #ideas li {
+        float: none;
+        width: 80%;
+        padding: 0 10%;
+        margin: 25px 0;
+    }
+
+    #coments blockquote {
+        font-size: 16px;
+        line-height: 1.3em;
+    }
+
+    footer li {
+        width: 100%;
+        float: none;
+        clear: both;
+        padding-top: 16px;
+        margin-left: 0;
+        border-top: 2px solid #363636
+    }
+
+}
+
+@media screen and (max-width: 480px){
+
+    #main-banner h2 {
+        width: 85%;
+        padding: 0;
+        margin: 0 auto;
+        font-size: 15px;
+        left: 1%
+    }  
+
+    #main-banner p {
+        width: 85%;
+        font-size: 12px;
+        margin-bottom: -1%;
+    }
+
+    #main-banner a {
+        width: 100px;
+        font-size: 13px;
+    }
+
+    #ideas li {
+        width: 94%;
+        padding: 0 3%;
+    }
+
+    #work li {
+        width: 94%;
+        padding: 0 3%;
+    }
+
+    #coments blockquote {
+        width: 80%;
+        font-size: 15px;
+    }
+
+    #copy-right span {
+        display: block;
+        padding-top: 1%;
+        padding-left: 5%;
+    }
+}
