@@ -348,6 +348,10 @@ footer li span {
     text-decoration: none;
 }
 
+#copy-right a:hover {
+    text-shadow: 0.5px 0 #aaaaaa;
+}
+
 /* MEDIA QUERY SECTION */ 
 
 @media screen and (max-width: 965px) {
